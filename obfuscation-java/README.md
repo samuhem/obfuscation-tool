@@ -18,13 +18,14 @@ Our privacy relies on matching places to POIs using [HERE place matching](https:
 
 The project includes a list of all HERE categories along with estimated privacy ratings and typical visit durations. Current values reflect our estimates and project requirements, and can be freely modified to suit other project specifications.
 
-#### Sensitivity category has a range of 1-3, where:
+#### Sensitivity category has a range of 0 - 3, where:
 
+- 0: Unknown
 - 1: Public
 - 2: Sensitive
 - 3: Private
 
-#### Visit durations has a range of 1-4, where:
+#### Visit durations has a range of 1 - 4, where:
 
 - 1: Brief (under 30 minutes)
 - 2: Visit (30 minutes to 2 hours)
