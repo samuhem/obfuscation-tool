@@ -555,7 +555,7 @@ classdef Obfuscation
                 
                 % No waypoints for route; don't do anything (for now)
                 if isempty(routeWPs)
-                    return;
+                    continue;
                 end
                 
                 % Handle waypoints in startPlace protected area
