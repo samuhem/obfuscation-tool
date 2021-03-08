@@ -1,8 +1,29 @@
-% This class uses external function for plotting: 
+% Class containing source code for obfuscation work done in association
+% with Benchmark project.
+%
+% Please see README for instructions.
+%
+% Author: S. Hemminki
+% Date 08.03.2021
+% 
+% -------------------------------------------------------------------------
+% LICENSE
+%
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+% EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS 
+% OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+% WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF 
+% OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+%
+% -------------------------------------------------------------------------
+%
+% This class uses external function for plotting on google maps: 
 % plot_google_maps
 %  http://www.mathworks.com/matlabcentral/fileexchange/24113
 %  http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/
 %  http://developers.google.com/maps/documentation/staticmaps/
+%
 
 classdef Obfuscation
     
