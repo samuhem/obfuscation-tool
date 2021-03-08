@@ -162,9 +162,20 @@ After setting up input and export database settings, Obfuscation can be run by f
 
 ```obf = Obfuscation();```
 
-and then running the pipeline with:
+Time range for the obfuscation process can then be set with:
+
+```obf = obf.setQueryTS(epoch_start_ms, epoch_end_ms)```
+
+, where first parameter is the start epoch timestamp in milliseconds and second parameter is the end epoch timestamp in milliseconds.
+
+The main pipelin can then be run with:
 
 ```obf.run(userId);```
+
+After running the main obfuscation, it is recommended that results are visually checked, using the functions detailed in next section, to perform at expected obfuscation level. Results are then exported to output database with:
+
+```obf = obf.connectToOutputDB();```
+```obf = obf.pushObfuscatedData();```
 
 ## Visualisation
 
